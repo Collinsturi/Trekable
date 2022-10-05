@@ -1,10 +1,12 @@
 package com.rsk.trekable
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -44,6 +46,11 @@ class MainActivity : AppCompatActivity() {
 
             drawerLayout.closeDrawer(GravityCompat.START)
             true
+        }
+
+        val btnGetStarted : Button = findViewById(R.id.btnGet_started)
+        btnGetStarted.setOnClickListener{
+            startActivity(Intent(this, LogInActivity::class.java))
         }
 
     }
