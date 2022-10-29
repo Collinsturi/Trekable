@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/drawable/custom_username_image.xml" value="0.243" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/activity_log_in.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/activity_main_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/content_activity_main_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/content_log_in.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/main_activity_app_bar_items.xml" value="0.381025641025641" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/layout/nav_header.xml" value="0.1" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Trekable2/app/src/main/res/menu/nav_menu_main_activity.xml" value="0.1" />

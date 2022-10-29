@@ -3,17 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#1D1D1D">
 
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/img_2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,31 +20,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="59.5dp"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="181dp"
+        android:layout_marginTop="156dp"
         android:layout_marginEnd="325dp"
         android:src="@drawable/log_in_house"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
     <TextView
-        android:layout_width="157dp"
-        android:layout_height="52dp"
+        android:layout_width="98dp"
+        android:layout_height="42dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="224dp"
         android:layout_marginEnd="271dp"
         android:fontFamily="@font/avenir_next_ltpro_bold"
         android:lineHeight="44dp"
         android:text="log in"
         android:textColor="@color/white"
         android:textFontWeight="600"
-        android:textSize="45dp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,30 +51,41 @@
         android:id="@+id/editTextContentLogIn"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_marginTop="355dp"
+        android:layout_marginTop="308dp"
+        android:drawableLeft="@drawable/custom_username_image"
+        android:drawablePadding="10dp"
+        android:hint="UserName"
         android:textColor="@color/white"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/editTextContentPassword"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_marginTop="436dp"
+        android:layout_marginTop="384dp"
+        android:drawableLeft="@drawable/password_image"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:textColor="@color/white"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="@color/white"/>
 
     <Button
         android:id="@+id/buttonLogIN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="107dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="107dp"
         android:text="Log in"
         app:cornerRadius="20dp"
@@ -103,7 +105,9 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLogIN" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogIN"
+        android:clickable="true"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/buttonSIGNUP"
