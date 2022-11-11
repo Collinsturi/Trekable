@@ -2,12 +2,10 @@ package com.rsk.trekable
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -65,7 +63,7 @@ class LogInActivity : AppCompatActivity() {
         val buttonLogIn: Button = findViewById(R.id.buttonLogIN)
         buttonLogIn.setOnClickListener{
             Snackbar.make(buttonLogIn, "Logging in", Snackbar.LENGTH_SHORT).show()
-            startActivity(Intent(this, MainPageActivity::class.java))
+            startActivity(Intent(this, MainScreenActivity::class.java))
         }
         val buttonSignup: Button = findViewById(R.id.buttonSIGNUP)
         buttonSignup.setOnClickListener{
